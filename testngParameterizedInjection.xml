@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="My parameterized test suite">
+  <test name="parameterised injection testing">
+ 
+    <parameter name="i" value="13"/> 	
+ 
+    <classes>
+       <class name="com.dimitrisli.testng.parameterized.ParameterizedInjectionTest" />
+    </classes>
+  </test>
+</suite>

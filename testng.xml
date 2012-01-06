@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Suites test">
+  <test name="testingSuites">
+    <classes>
+       <class name="com.dimitrisli.testng.suite.TestNGSuiteClass2" />
+       <class name="com.dimitrisli.testng.suite.TestNGSuiteClass1" />
+    </classes>
+  </test>
+</suite>
